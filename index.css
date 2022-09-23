@@ -1,0 +1,201 @@
+/* хедер */
+body {
+    background-color: #141414;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #4520ab;
+}
+
+.headr_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Лого */
+
+.elbrus_logo {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.kino {
+    width: 80px;
+    align-self: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 30px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #7D63c4;
+    cursor: pointer;
+
+}
+
+/* Подсветка меню */
+
+.menu div:hover {
+    color: #FFBC5B;
+}
+
+/* лупа */
+.search {
+    position: relative;
+
+}
+
+.search2 {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.photo {
+    width: 44px;
+    height: 44px;
+
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.container {
+    display: flex;
+
+    flex-direction: column;
+    position: relative;
+
+    width: 100%;
+}
+
+.container_card {
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 32px;
+}
+
+
+/* картинки */
+
+.img_small {
+    width: 322px;
+    height: 182px;
+    border-radius: 12px;
+
+}
+
+.img_large {
+    width: 322px;
+    height: 500px;
+    border-radius: 15px;
+
+}
+
+.card {
+    position: relative;
+    cursor: pointer;
+}
+
+/* рейтинг */
+
+.reiting {
+    position: absolute;
+    width: 52px;
+    height: 30px;
+    left: 12px;
+    top: 12px;
+    background-color: #FFBC5B;
+    border-radius: 6px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Большая стрелка */
+
+.arrow {
+    width: 10px;
+    height: 80px;
+
+    align-self: center;
+}
+
+.title_top {
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    margin-top: 52px;
+    margin-left: 92px;
+    color: #FFBC5B;
+    width: 300px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+.title_top2 {
+    /* border: 1px solid grey; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    margin-top: 52px;
+    margin-left: 92px;
+    color: #FFBC5B;
+    width: 420px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+/* описания фильмов */
+
+.title_bottom {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.title_bottom :first-child {
+    color: #989898;
+}
+
+.title_bottom :last-child {
+    color: #515151;
+}
+
+ .title_bottom :hover :last-child {
+    color :white;
+}
